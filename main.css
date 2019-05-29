@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    margin: auto;
+    background: #F0F0F0;
+}
+
+center {
+    text-align: center;
+    background: #F0F0F0;
+}
+
+.button {
+    font-size: 20px;
+    border-radius: 10%;
+    height: 50px;
+    width: 100px;
+}
+
+.button:hover {
+    border-radius: 10%;
+    background: #ccc;
+    margin-top: 50px;
+}
