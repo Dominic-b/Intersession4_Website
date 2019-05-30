@@ -1,12 +1,48 @@
 h1 {
     text-align: center;
     margin: auto;
-    background: #F0F0F0;
+    background: tomato;
+}
+
+p2 {
+    text-align: left;
+}
+
+p3 {
+    text-align: left;
+    width: 200px;
+    text-decoration: line-through double;
 }
 
 center {
     text-align: center;
-    background: #F0F0F0;
+    background: tomato;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #999;
+}
+
+li {
+    float: left;
+    width: 300px;
+    text-align: center;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #ccc;
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #000;
+    color: #FFF;
 }
 
 .button {
@@ -19,5 +55,5 @@ center {
 .button:hover {
     border-radius: 10%;
     background: #ccc;
-    margin-top: 50px;
+    /*margin-top: 50px;*/
 }
